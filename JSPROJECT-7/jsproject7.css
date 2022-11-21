@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(166, 86, 241);
+    text-align: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width: 28rem;
+    margin: auto;
+    height: 27rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    border-radius: 30px;
+}
+
+#main{
+    border: 20px solid red inset;
+}
+
+.title{
+    height: 2rem;
+    width: 27rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.data{
+    width: 85%;
+    margin-top: 20px;
+    height: 14%;
+    text-align: center;
+    /* border-color: red; */
+    /* border: 2px solid red; */
+}
+
+#input{
+    border:  1px solid rgb(255, 0, 212);
+    margin-left: 1rem;
+    margin-top: -3px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#input:hover{
+    border:  1px solid rgb(51, 54, 245);
+    margin-left: 1rem;
+    margin-top: -3px;
+    margin-bottom: 2rem;
+}
+
+::placeholder{
+ color: rgb(6, 7, 7);
+ border: none;
+}
+
+
+
+.submit{
+    width: 20rem;
+    margin-bottom:  2rem;
+    height: 3.1rem;
+    text-align: center;
+    border: none;
+    background-color: #1b98f5;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit:hover{
+    width: 20rem;
+    margin-bottom:  2rem;
+    height: 3.1rem;
+    text-align: center;
+    border: none;
+    background-color: #a722ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img{
+    margin-top: -1rem;
+    display: none;
+    margin-left: 9.2rem;
+}
+

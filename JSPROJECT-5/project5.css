@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: rgb(118, 169, 214) ;
+    font-family: 'Chilanka', cursive;
+}
+
+/* header {
+    background-color: #ff6666;
+    padding: 2vmin 0;
+    font-family: 'Chilanka', cursive;
+} */
+header{
+    background-color:  rgb(255, 0, 64);
+    color:  rgb(158, 175, 221);
+    padding:  2vmin 0;
+}
+
+header h1{
+    /* padding-left: 36rem; */
+    font-size:  4em;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 2rem; */
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+}
+/* header h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #c1e7e1;
+} */
+
+.score-board{
+    color: #fee11a;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 2vmin;
+}
+
+.score-board .userscore, .score-board .compscore, .score-board span{
+    display: inline-block;
+    padding: 0 1vmin;
+}
+
+.compscore{
+align-items:  center;
+}
+
+.score-board span{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+#result-final-stat{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(255, 0, 51);
+}
+
+.result{
+    text-align: center;
+    margin: 1vmin auto 3vmin auto;
+    font-size: 2em;
+}
+
+.choices{
+    margin: 5vmin auto;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.choice{
+    padding: 3vmin , 3vmin;
+    margin: 0 2vmin;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.choice:hover{
+    background-color: #ff0000;
+    border: 1rem solid #47030f;
+
+}
+
+.name{
+    color: #e7e3ff;
+}
